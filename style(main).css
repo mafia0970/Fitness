@@ -1,0 +1,349 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Muli", sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+#navbar {
+    background-image: url('source/bg2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+}
+
+#text {
+    color: white;
+    letter-spacing: 6px;
+    display: block;
+    position: absolute;
+    margin-top: 173px;
+    margin-left: 720px;
+    font-size: 18px;
+}
+
+nav {
+    display: flex;
+    padding: 12px;
+
+}
+
+nav div img {
+    display: block;
+    padding: 4px;
+    margin-right: 10px;
+}
+
+nav ul {
+    display: flex;
+    margin-top: 4px;
+    list-style: none;
+}
+
+nav ul li a:hover {
+    color: rgb(243, 107, 9);
+}
+
+#strong {
+    color: rgb(243, 107, 9);
+}
+
+#strong1 {
+    font-size: 25px;
+}
+
+nav ul li a {
+    padding: 20px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+#media img {
+    height: 25px;
+}
+
+#media {
+    margin-left: 228px;
+}
+
+#logo {
+    margin-right: 74px;
+}
+
+#tp {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin-left: 522px;
+    margin-top: 34px;
+    color: orangered;
+    width: 300px;
+}
+
+#tp1 {
+    font-size: 26px;
+    margin-left: 396px;
+    color: aliceblue;
+}
+
+#section1 {
+    background: url("source/whyus.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 556px;
+
+}
+
+
+#class {
+    display: block;
+    position: absolute;
+    background-color: black;
+    width: 100%;
+    height: 495px;
+    margin-top: -12px;
+
+}
+
+#weigthloss img {
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 29px;
+    margin-right: 10px;
+}
+
+#cardio {
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 29px;
+    margin-right: 10px;
+}
+
+
+#strength {
+    width: 335px;
+    /* -webkit-transform: skewY(-4deg); */
+    height: 247px;
+    background-image: url(source/weightloss.jpg);
+    background-repeat: no-repeat;
+    display: block;
+    position: absolute;
+    margin-left: 70px;
+    margin-top: 29px;
+}
+
+#strength h5 {
+    background-color: rgb(29, 25, 24);
+    color: orangered;
+    display: block;
+    position: absolute;
+    margin-top: 252px;
+    margin-left: 35px;
+    font-size: 14px;
+    padding-left: 154px;
+    padding-left: 96px;
+    padding-right: 139px;
+    padding-top: 10px;
+    padding-bottom: 43px;
+    border-radius: 20px;
+}
+
+#strength h1 {
+    margin-top: 286px;
+    display: block;
+    position: absolute;
+    margin-left: 82px;
+    color: aliceblue;
+
+}
+
+#strength h5:hover {
+    background-color: orangered;
+    color: aliceblue;
+}
+
+
+#cardio {
+    width: 335px;
+    height: 247px;
+    background-image: url(source/cardio.jpg);
+    background-repeat: no-repeat;
+    display: block;
+    position: absolute;
+    margin-left: 472px;
+
+}
+
+#cardio h5 {
+    background-color: rgb(29, 25, 24);
+    color: orangered;
+    display: block;
+    position: absolute;
+    margin-top: 252px;
+    margin-left: -5px;
+    font-size: 14px;
+    padding-left: 126px;
+    padding-right: 164px;
+    padding-top: 10px;
+    padding-bottom: 43px;
+    border-radius: 20px;
+}
+
+#cardio h1 {
+    margin-top: 286px;
+    display: block;
+    position: absolute;
+    margin-left: 65px;
+    color: aliceblue;
+
+}
+
+#cardio h5:hover {
+    background-color: orangered;
+    color: aliceblue;
+}
+
+
+#strength1 {
+    width: 335px;
+    height: 247px;
+    background-image: url(source/strength1.jpg);
+    background-repeat: no-repeat;
+    display: block;
+    position: absolute;
+    margin-left: 881px;
+    margin-top: 28px;
+
+}
+
+#strength1 h5 {
+    background-color: rgb(29, 25, 24);
+    color: orangered;
+    display: block;
+    position: absolute;
+    margin-top: 252px;
+    margin-left: -3px;
+    font-size: 14px;
+    padding-left: 126px;
+    padding-right: 140px;
+    padding-top: 10px;
+    padding-bottom: 43px;
+    border-radius: 20px;
+}
+
+#strength1 h1 {
+    margin-top: 286px;
+    display: block;
+    position: absolute;
+    margin-left: 65px;
+    color: aliceblue;
+
+}
+
+#strength1 h5:hover {
+    background-color: orangered;
+    color: aliceblue;
+}
+
+#registration {
+    height: 300px;
+    margin-top: 481px;
+    border: 1px solid black;
+}
+
+#dropin {
+    border: 2px solid rgb(122, 116, 116);
+    width: 285px;
+    height: 381px;
+    position: relative;
+    margin-top: 372px;
+    margin-left: 97px;
+    -webkit-transform: skewY(-4deg);
+}
+#dropin:hover{
+    background-color: white;
+    color: black;
+}
+
+#dropin ul {
+    display: flex;
+    position: absolute;
+    visibility: 12;
+    color: orangered;
+    list-style: none;
+    padding: 32px;
+    text-align: center;
+    flex-direction: column;
+    font-size: 17px;
+}
+#dropin ul li{
+    margin: 8px;
+}
+
+#month12 {
+    border: 2px solid rgb(122, 116, 116);
+    width: 285px;
+    height: 381px;
+    position: relative;
+    margin-top: -384px;
+    margin-left: 488px;
+    -webkit-transform: skewY(-4deg);
+}
+#month12:hover{
+    background-color: white;
+    color: black;
+}
+
+#month12 ul {
+    display: flex;
+    position: absolute;
+    visibility: 12;
+    color: orangered;
+    list-style: none;
+    padding: 32px;
+    text-align: center;
+    flex-direction: column;
+    font-size: 17px;
+}
+#month12 ul li{
+    margin: 8px;
+}
+
+
+#month6 {
+    border: 2px solid rgb(122, 116, 116);
+    width: 285px;
+    height: 381px;
+    position: relative;
+    margin-top: -380px;
+    margin-left: 912px;
+    -webkit-transform: skewY(-4deg);
+}
+
+#month6:hover{
+    background-color: white;
+    color: black;
+}
+
+#month6 ul {
+    display: flex;
+    position: absolute;
+    visibility: 12;
+    color: orangered;
+    list-style: none;
+    padding: 32px;
+    text-align: center;
+    flex-direction: column;
+    font-size: 17px;
+}
+#month6 ul li{
+    margin: 8px;
+}
+footer{
+    margin-top: 41px;
+}
