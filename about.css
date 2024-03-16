@@ -1,0 +1,56 @@
+@media screen and (max-width: 470px) {
+    #navbar {
+        visibility: hidden;
+    }
+}
+
+body {
+    background-image: url("source/about1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+}
+
+#nav {
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+}
+
+#card {
+    border-radius: 10px;
+    margin-top: 30px;
+    padding: 20px;
+    margin-left: 30px;
+    color: white;
+    font: bold;
+}
+#nav a {
+    text-decoration: none;
+}
+#nav a li:hover{
+    color: white;
+}
+
+#nav a img{
+    margin-top: 12px;
+    margin-right: 20px;
+}
+#nav li {
+    padding-left: 40px;
+    padding-top: 10px;
+    color: orangered;
+    font-size: 20px;
+}
+
+#card1 {
+    text-decoration: none;
+    font: bold;
+    color: orangered;
+    margin-left: 200px;
+    margin-top: 30px;
+}
+
+#card1:hover {
+    color: white;
+}
